@@ -1,0 +1,196 @@
+html{font-size: 62.5%}
+@media screen and (max-width: 320px){
+    body{
+        font-size: 40%;
+    }
+}
+@media screen and (max-width: 375px) and (min-width: 321px){
+    body{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 376px){
+    body{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 424px){
+    body{
+        font-size: 70%;
+    }
+}
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 88px;
+    background-color: #5fc0cd;
+}
+.return{
+    position: absolute;
+    top:30.68% ;
+    left: 5.83%;
+    width: 22px;
+    height: 37px;
+}
+.header-center{
+    position: absolute;
+    top: 30.68%;
+    left: 41.25%;
+    font-size: 3.6rem;
+    color: #ffffff;
+}
+.headpicture {
+    position: relative;
+    height: 327px;
+    width: 100%;
+}
+.blur{
+    -webkit-filter : brightness(.3);
+    filter : brightness(.3);/*亮度,chrome*/
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadious=10,MakeShadoe=flase);/*IE6~9*/
+    width: 105%;
+    height: 327px;
+}
+.headsculpture{
+    position: absolute;
+    left: 4.2%;
+    top: 7.8rem;
+}
+.name{
+    position: absolute;
+    left: 33.2%;
+    top: 11.6rem;
+    font-size: 3.6rem;
+    color: #ffffff;
+}
+.age{
+    position: absolute;
+    left: 51.9%;
+    top: 12rem;
+    font-size: 2.8em;
+    color: #ffffff;
+
+}
+.address-img{
+    position: absolute;
+    left: 33.75%;
+    top: 17.6rem;
+
+}
+.address{
+    position: absolute;
+    left: 38.2%;
+    top: 17.6rem;
+    font-size: 2.4rem;
+    color: #ffffff;
+}
+.content{
+    position: relative;
+}
+.title-img{
+    position: absolute;
+    left: 4.16%;
+    top: 4.1rem;
+}
+.title{
+    position: absolute;
+    left: 8.19%;
+    top: 3.5rem;
+    font-size: 3.2rem;
+
+}
+.require1{
+    position: absolute;
+    left: 8.5%;
+    top: 14.3rem;
+    font-size: 3.2rem;
+
+}
+.require2{
+    position: absolute;
+    left: 26.8%;
+    top: 14.3rem;
+    font-size: 3.2rem;
+}
+.list{
+    position: relative;
+    top: 20.2rem;
+    height: 10.6rem;
+    border-bottom: 0.2rem solid #e1e5e7;
+}
+.list-title{
+    position: absolute;
+    left: 8.5%;
+    top: 3.4rem;
+    font-size: 3.2rem;
+}
+.list-content{
+    position: absolute;
+    left: 33.75%;
+    top: 3.4rem;
+    font-size: 3.2rem;
+}
+.list-content-sp1{
+    position: absolute;
+    left: 33.75%;
+    top: 3.4rem;
+    font-size: 3.2rem;
+    color: red;
+}
+.list-content-sp2{
+    position: absolute;
+    left: 33.75%;
+    top: 1.9rem;
+    right: 1.22%;
+    font-size: 2.8rem;
+}
+.footer{
+    position: relative;
+    top:22.6rem;
+    height: 22.6rem;
+
+}
+.write{
+    position: absolute;
+    left: 5.13%;
+    bottom: 4rem;
+    height: 8.8rem;
+    width: 42.3%;
+    font-size: 3.4rem;
+    color: #5fc0cd;
+    text-align: center;
+
+    border-radius: 1rem;
+    border:0.3rem solid #5fc0cd;
+}
+.phone{
+    position: absolute;
+    right: 5.13%;
+    bottom: 4rem;
+    height: 8.8rem;
+    width: 42.3%;
+    font-size: 3.4rem;
+    color: #ffffff;
+    background-color: #5fc0cd;
+    text-align: center;
+
+    border-radius: 1rem;
+    border:0.3rem solid #ffffff;
+}
+.write span{
+    position: relative;
+    top: 25%;
+}
+.phone span{
+    clear: both;
+    position: relative;
+    top: 25%;
+}
